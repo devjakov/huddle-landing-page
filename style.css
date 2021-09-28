@@ -118,6 +118,7 @@ body{
 }
 
 #register{
+    text-decoration: none;
     background-color: white;
     padding: 1rem 5rem;
     font-weight: 700;
@@ -159,7 +160,7 @@ body{
 }
 
 /* links */
-a{
+.social a{
     text-decoration: none;
     color: white;
 }
@@ -220,4 +221,19 @@ a{
     .social{
         justify-content: flex-end;
     }
+}
+
+
+
+/* footer with my info */
+footer{
+    grid-column: 2;
+    grid-row: 4;
+}
+
+footer a:hover{
+    background-color: var(--SoftMagenta);
+    color: white;
+    transition: color ease-in-out 100ms;
+    transition: background-color ease-in-out 100ms;
 }
